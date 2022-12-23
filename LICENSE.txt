@@ -1,0 +1,33 @@
+ÆRO Kianit License
+
+Link to creator(s):
+ - https://gameplayer-8.codeberg.page
+
+                           » ÆRO KIANIT LICENSE «
+                           Version 1.0, 15.05.2022
+
+Everyone is allowed to copy, modify, share and redistribute any type of software
+ what's under this license as long as the copy contains the link to the software
+                                 creator(s).
+
+                             » General usage «
+                             
+ ≠» Software under ÆRO Kianit License is provided "AS IS" and there's no warranty
+ that the software should work as described.
+ =» Everyone is allowed to copy, modify, share and redistribute any software
+ what's under this license;
+ =» Everyone must include link to the software creator(s)
+ if the software is being shared or redistributed;
+ =» Everyone is allowed to use the license for commercial or private usage.
+ ≠» There's no liability of anything harmful caused by the software licensed under
+ ÆRO Kianit License.
+ =» Everyone can redistribute software under different license as much as the
+ license will not try to remove freedom from that software.
+ =» Everyone can make money from software licensed under ÆRO Kianit License, but
+ must include link to the original source code.
+
+                             » Security Risks «
+                              
+ ≠» License does not recommend using Copyrights to secure the software, because
+ it's an unregistred license (not approved by any government).
+ 

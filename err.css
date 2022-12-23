@@ -1,0 +1,147 @@
+@font-face {
+    font-family: gpdefault;
+    src: url('fonts/DefaultFixed.otf' );
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f202b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #120058;
+}
+
+body {
+	background-color: black;
+	background-image:
+        -moz-radial-gradient(circle, rgb(158, 128, 255) 4px, transparent 40px),
+        -moz-radial-gradient(circle, rgb(118, 0, 144) 3px, transparent 30px);
+    background-image:
+        -webkit-gradient(radial, 10% 10%, 1, 10% 10%, 3, from(rgb(158, 128, 255)), to(transparent)),
+        -webkit-gradient(radial, 10% 10%, 1, 10% 10%, 5, from(rgb(118, 0, 144)), to(transparent));
+	background-size: 550px 550px, 350px 350px, 250px 270px, 220px 200px;
+	background-position: 0 0, 30px 60px, 130px 270px, 70px 150px;
+	animation-name: movement;
+	animation-duration: 40s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-moz-animation-name: movement;
+	-moz-animation-duration: 40s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-name: movement;
+	-webkit-animation-duration: 40s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+    perspective: 1000;
+}
+
+@keyframes movement
+{
+	from {
+			background-position: 0 0, 30px 60px;
+	}
+	to {
+			background-position: -550px 0, -320px 60px;
+	}
+}
+
+@-moz-keyframes movement
+{
+	from {
+			background-position: 0 0, 30px 60px;
+	}
+	to {
+			background-position: -550px 0, -320px 60px;
+	}
+}
+
+@-webkit-keyframes movement
+{
+	from {
+			background-position: 0 0, 30px 60px;
+	}
+	to {
+			background-position: -550px 0, -320px 60px;
+	}
+}
+
+h1 {
+    color: rgb(20, 90, 220);
+    font-family: gpdefault;
+}
+
+b {
+    color: rgb(44, 42, 165);
+    font-family: gpdefault;
+}
+
+b1 {
+    color: #6c0078a9;
+    font-family: gpdefault;
+}
+
+hr {
+    border-color: rgb(34, 0, 255);
+}
+
+
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 45%;
+    right: 30%;
+    margin-bottom: 8px;
+}
+
+#bottom-right {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+}
+
+#info {
+    float: center;
+}
+
+#bginfo {
+    background-color: #00286d2f;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+#container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+submitbutton {
+    background-color: #009dff6f;
+    font-family: gpdefault;
+    width: 100%;
+    border-radius: 10px;
+    color: #0077ff;
+    display: inline;
+    cursor: pointer;
+    padding: 6px 6px;
+}
+
+submitbutton:hover {
+    background-color: #006eb2be;
+}
