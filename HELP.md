@@ -1,26 +1,32 @@
 # Rules
-The rules of the service are available [here](https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion/rules).
+The rules of the service are available [here](https://gameplayer.tru.io/rules).
 
 # License
-The license of the source code are available [here](https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion/LICENSE.txt).
+The license of the source code are available [here](https://gameplayer.tru.io/LICENSE.txt).
 
 # Third-party licenses
-[Click here.](https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion/public-licenses)
+[Click here.](https://gameplayer.tru.io/public-licenses)
 
 # Contributing
-Info about contributing are available [here](https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion/CONTRIBUTING).
+Info about contributing are available [here](https://gameplayer.tru.io/CONTRIBUTING).
 
-# Help Center
-For getting help, please go to [Help Center page](https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion/help).
-
-# Issue Center
-[Link](https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion/issues) to the Issue Center for issues not about that source code.
+# Getting Help
+There are many places for getting help:
+ - [FoundKey](https://gameplayer.tru.io/foundkey/@GamePlayer);
+ - [Community](https://gameplayer.tru.io/Community/issues);
+ - [Forum](https://gameplayer.tru.io/forum);
+ - [Mail](help@gameplayer.tru.io);
+ - [OpenNIC Mail](help@gameplayer.libre);
 
 # Copyright
-**Copyright (C) 2022 GamePlayer**
+**Copyright © 2023 Jakub Graczykowski**
+**Copyright © 2022 GamePlayer**
 
 # Link Signature
- * https://gameplayer-8.codeberg.page
- * https://gameplayer-8.codeberg.page
+ * https://gameplayer.tru.io
+ * https://gameplayer.homeplex.org
+ * https://gameplayer.ster.pl
+ * https://gameplayer.i2p
  * https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion
  * https://tnx3rs43t4b7qu3lprzrhtshmiwchh5qsvyo46bzpibeonhpijyrknad.onion
+ * https://gameplayer.libre
