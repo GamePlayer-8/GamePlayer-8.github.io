@@ -10,4 +10,6 @@
 	<b>Redirect Github.io pages into <a href="https://gameplayer.tru.io>gameplayer.tru.io</a> page</b>
 </p>
 
+<p>
 Technical stuff is available [here](HELP.md).
+</p>
