@@ -1,6 +1,6 @@
 <p align="center">
 	<a href="https://gameplayer-8.github.io">
-		<img src="err1.svg" width="200">
+		<img src="README-icon.png" width="200">
 		<h1 align="center">GamePlayer Redirect</h1>
 	</a>
 	<hr>
