@@ -8,6 +8,8 @@
 
 <p align="center">
 	<b>Redirect Github.io pages into gameplayer.tru.io page.</b>
-	<p/>
-	<b>Technical stuff is available [here](HELP.md).</b>
 </p>
+
+# Technical stuff
+
+Technical stuff, License, contributing etc. is available [here](HELP.md).
