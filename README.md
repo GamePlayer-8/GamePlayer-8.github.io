@@ -7,9 +7,7 @@
 </p>
 
 <p align="center">
-	<b>Redirect Github.io pages into <a href="https://gameplayer.tru.io>gameplayer.tru.io</a> page</b>
-</p>
-
-<p>
-Technical stuff is available [here](HELP.md).
+	<b>Redirect Github.io pages into gameplayer.tru.io page.</b>
+	<p/>
+	<b>Technical stuff is available [here](HELP.md).</b>
 </p>
