@@ -1,0 +1,29 @@
+name: 'SetupTools Runtime'
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths-ignore:
+      - 'version'
+      - '.github'
+      - 'licensing'
+      - 'CODE_OF_CONDUCT.md'
+      - '.gitignore'
+      - 'plugin.cfg'
+
+jobs:
+  Runtime:
+    permissions: write-all
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install git & python3
+        run: sudo apt-get update && sudo apt-get install --yes git python3
+
+      - name: Get the source
+        run: git clone https://github.com/GamePlayer-8/SetupTools
+
+      - name: Run SetupTools
+        run: cd SetupTools && sudo python3 setuptools.py --token ${{ github.token }} --os Ubuntu --repo ${{ github.repository }}
