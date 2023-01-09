@@ -19,13 +19,11 @@ There are many places for getting help:
  - [OpenNIC Mail](help@gameplayer.libre);
 
 # Copyright
-**Copyright © 2023 Jakub Graczykowski**
+**Copyright © 2023 Jakub Graczykowski & XaviaMa Network**
 **Copyright © 2022 GamePlayer**
 
 # Link Signature
  * https://gameplayer.tru.io
- * https://gameplayer.homeplex.org
- * https://gameplayer.ster.pl
  * https://gameplayer.i2p
  * https://xdvuazhmpidi4euufr2vxbx4ddw2es2woaavx7dhdmo5zs4wv5eveqad.onion
  * https://tnx3rs43t4b7qu3lprzrhtshmiwchh5qsvyo46bzpibeonhpijyrknad.onion
