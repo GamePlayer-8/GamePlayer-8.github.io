@@ -1,0 +1,17 @@
+# .woodpecker.yml
+when:
+  branch: [dev]
+
+steps:
+  main:
+    image: codeberg.org/gameplayer-8/gitio
+
+    commands:
+      - export LOCAL_DOMAIN="$(cat .domains)"
+      - sh worker.sh
+      - gitio branch GIT_BRANCH:main
+      - gitio branch GIT_BRANCH:pages
+
+    secrets:
+      - SYSTEM_TOKEN_PASSWD
+      - OCI_TOKEN

@@ -1,0 +1,32 @@
+/* For Chromium-based browsers */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00ff00;
+    border-radius: 5px;
+}
+
+/* For Mozilla-based browsers */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #00ff00 #222;
+}
+
+html::-moz-scrollbar {
+    width: 10px;
+}
+
+html::-moz-scrollbar-track {
+    background-color: #222;
+}
+
+html::-moz-scrollbar-thumb {
+    background-color: #00ff00;
+    border-radius: 5px;
+}
