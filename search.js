@@ -1,7 +1,7 @@
 var username = "GamePlayer-8"
 var website = "https://chimmie.k.vu"
 
-var json_url = "https://codeberg.org/api/v1/users/" + username + "/repos"
+var json_url = "https://corsproxy.io/?https://codeberg.org/api/v1/users/" + username + "/repos"
 
 function getRandomElement(arr) {
   const randomIndex = Math.floor(Math.random() * arr.length);
