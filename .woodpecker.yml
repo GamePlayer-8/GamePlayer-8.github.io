@@ -14,4 +14,3 @@ steps:
 
     secrets:
       - SYSTEM_TOKEN_PASSWD
-      - OCI_TOKEN
