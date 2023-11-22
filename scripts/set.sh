@@ -13,7 +13,7 @@ fi
 SCRIPT_PATH="$(dirname "$(realpath "$0")")"
 
 while IFS= read -r line; do
-    if [[ -n "$line" && ! "$line" =~ ^#.* ]]; then
+    if [ -n "$line" ] && ! echo "$line" | grep -q "^#.*"; then
         param_name=$(echo "$line" | cut -d "=" -f 1)
         param_value=$(echo "$line" | cut -d "=" -f 2)
 
