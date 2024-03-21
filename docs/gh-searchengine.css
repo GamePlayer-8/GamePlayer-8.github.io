@@ -1,0 +1,164 @@
+.searchengine div input {
+	border: none;
+	outline: none;
+}
+
+.searchengine div input:hover {
+	border: none;
+	outline: none;
+}
+
+.searchengine div input:active {
+	border: none;
+	outline: none;
+}
+
+.searchengine div input:focus {
+	outline: none;
+	border: none;
+}
+
+.searchengine * {
+	margin-top: 2px;
+}
+
+.searchengine *:nth-child(2) {
+	margin-top: 0px;
+}
+
+.searchengine *:nth-last-child(3) {
+	margin-bottom: 10px;
+}
+
+.searchengine *:last-child {
+	margin-top: 8px;
+}
+
+.searchengine {
+	display: block;
+	color: rgb(0, 255, 60);
+	background: radial-gradient(#126f1a3b 20%, #ffffff00 80%);
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 0;
+	border-right: 0;
+	border-top: 1px;
+	border-bottom: 1px;
+	position: relative;
+	border-image: linear-gradient(90deg, #00000000, #00000000, #0c9f2c, #00000000, #00000000) 30;
+	border-style: solid;
+	box-shadow: 0px 5px 5px -5px rgba(0, 110, 255, 0.1),
+                0px -5px 5px -5px rgba(0, 110, 255, 0.1);
+}
+
+.searchengine h3, .searchengine div a b {
+    display: inline-block;
+	vertical-align: middle;
+	background-color: #00380d;
+	background-image: linear-gradient(90deg, #ff0000, #fffab5, #00ff2a, #00bfff, #5500ff);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.searchengine b {
+	color: #1e8276;
+}
+
+.searchengine div button b {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #00382e;
+	background-image: linear-gradient(90deg, #ffb5fb, #00ff2a, #5500ff);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.searchengine div a, .searchengine-lucky, .searchengine div button {
+    display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #0e3b3d;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s;
+}
+
+.searchengine div input {
+	display: inline-block;
+	padding: 8px 20px 12px;
+	font-size: 16px;
+	color: #226591;
+	background-color: #0e3d3b;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s;
+}
+
+.searchengine div input:hover {
+	background-color: #13524f;
+}
+
+.searchengine div input:active {
+	background-color: #0a2c2a;
+}
+
+.searchengine div input::placeholder {
+	color: transparent;
+	background-image: linear-gradient(90deg, #00bfff, #5500ff);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+}
+
+.searchengine div a:hover, .searchengine div button:hover {
+    background-color: rgb(24, 68, 86);
+}
+
+.searchengine div a:active, .searchengine div button:active {
+    background-color: #0e3d37;
+}
+
+.searchengine div>*:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.searchengine div>*:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.searchengine-lucky {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+    background-image: linear-gradient(#071721, #0e3d39);
+}
+
+.searchengine-lucky:hover {
+    background-image: linear-gradient(#0c1e39, #15565c);
+}
+
+.searchengine-lucky:active {
+    background-image: linear-gradient(#0e203d, #0e3d2c);
+}
+
+#lucky, #search-content {
+	display: none;
+}

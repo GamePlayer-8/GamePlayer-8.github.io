@@ -1,0 +1,366 @@
+/* Body styles */
+
+html {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	color: #006aff;
+	font-family: Arial, sans-serif;
+	background-image: linear-gradient(to top, #3e007d39, #11001f 70%, #2c14503f);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% auto;
+	z-index: 1;
+}
+
+body::before {
+	background-color: #00222e23;
+	background-image: radial-gradient(#5900ff12 10%, transparent 11%);
+	background-size: 5px 5px;
+	background-position: 0 0, 30px 30px;
+	background-repeat: repeat;
+	z-index: -1;
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body::after {
+	background-image: radial-gradient(#1c11312c 1%, transparent 80%);
+	background-size: cover;
+	background-position: top-left;
+	background-repeat: no-repeat;
+	z-index: -1;
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* Header styles */
+header {
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+/* HR element */
+hr {
+	width: 100%;
+	color: rgba(0, 255, 0, 0.1);
+	box-shadow: 0 0 8px rgba(0, 255, 0, 0.1);
+	visibility: hidden;
+}
+
+/* Navigation styles */
+nav {
+	background-color: #000;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav ul li a:hover {
+	color: #00ff00;
+}
+
+/* Main content styles */
+main {
+	padding: 20px;
+}
+
+/* Article styles */
+article {
+	margin-bottom: 20px;
+}
+
+article h2 {
+	font-size: 24px;
+}
+
+article p {
+	line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+	background-color: #000;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Force images to be smaller than Viewport */
+img {
+	max-width: 90%;
+	max-height: 100%;
+}
+
+.button,
+button {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #1e0e3dbe;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s;
+}
+
+.button b,
+button b {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #1c0038;
+	background-image: linear-gradient(90deg, #ff0000, #fffab5, #00ff2a, #00bfff, #5500ff);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.button:hover,
+button:hover {
+	background-color: rgba(53, 24, 86, 0.733);
+}
+
+.button:active,
+button:active {
+	background-color: #1e0e3dd6;
+}
+
+.button img,
+button img,
+.img {
+	width: 35;
+	height: 35;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hidden {
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.header {
+    color: rgb(76, 0, 255);
+	background-color: #15002e76;
+	background-image: radial-gradient(#7700ff8a 10%, transparent 11%);
+	background-size: 5px 5px;
+	background-position: 0 0, 30px 30px;
+	background-repeat: repeat;
+	border-top-left-radius: 0;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 0;
+	border: 1px solid #6f00ff;
+	margin-top: 5px;
+	width: auto;
+	box-shadow: 0 2px 4px rgba(102, 0, 255, 0.3);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header>* {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header>*:first-child {
+    padding-left: 10px;
+}
+
+.header>*:last-child {
+    float: right;
+    padding-right: 10px;
+}
+
+.header div {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.header div a {
+    display: inline-block;
+	padding: 5px 5px;
+	font-size: 16px;
+	color: #00ff0d;
+	background-color: #2c1762be;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s;
+}
+
+.header div a:hover {
+    background-color: rgba(42, 24, 86, 0.733);
+}
+
+.header div a:active {
+    background-color: #1b0e3dd6;
+}
+
+.header div>a:last-child {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.header div>a:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.content {
+    color: #cf83ff;
+    border-top: 0;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: solid;
+    border-color: #cf83ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 5px;
+    background-image: linear-gradient(#00000000, #cf83ff30);
+    box-shadow: 0 2px 4px rgba(191, 0, 255, 0.3);
+}
+
+.content img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.content div {
+	display: flex;
+	align-items: center;
+}
+
+.content a {
+	color: #856cff;
+	background-color: #00000000;
+	transition: background-color 0.3s;
+
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 2px;
+}
+
+.content a:hover {
+	background-color: #58257f71;
+}
+
+.content a:active {
+	background-color: #39166370;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+
+    /* Styling for the element */
+    width: 100%;
+    background-image: linear-gradient(#1e005957, #00000000);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 1px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #00000000, #ff00ff, #00000000) 30;
+
+    color: #ff7bf686;
+}
+
+.footer a {
+    display: inline-block;
+	padding: 3px 3px;
+	font-size: 16px;
+	color: #fff;
+	background-image: linear-gradient(90deg, #00000000, #1c0055, #00000000);
+	box-shadow: 0 2px 4px rgba(28, 0, 56, 0.3);
+
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-image: linear-gradient( #00000000, #6200ff23, #00000000) 30;
+}
+
+.footer a:hover {
+    background-color: linear-gradient(90deg, #00000000, #2c0085, #00000000);
+}
+
+.footer a:active {
+    background-color: linear-gradient(90deg, #00000000, #23006a, #00000000);
+}
+
+.footer a i {
+    display: inline-block;
+	vertical-align: middle;
+	background-image: linear-gradient(90deg, #00bfff6b, #5500ff77);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.embeds {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70%;
+	max-width: 70%;
+	max-height: 35px;
+    border: none;
+}
+.darkweb i {
+    color: #c37eff;
+}

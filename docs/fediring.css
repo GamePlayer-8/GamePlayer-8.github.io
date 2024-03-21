@@ -1,0 +1,78 @@
+
+.fediring {
+	color: rgb(0, 200, 255);
+	background: radial-gradient(#124d6f3b 20%, #ffffff00 80%);
+	justify-content: center;
+	text-align: center;
+	display: block;
+	align-items: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 0;
+	border-right: 0;
+	border-top: 1px;
+	border-bottom: 1px;
+	position: relative;
+	border-image: linear-gradient(90deg, #00000000, #00000000, #0c369f, #00000000, #00000000) 30;
+	border-style: solid;
+	box-shadow: 0px 5px 5px -5px rgba(0, 110, 255, 0.1),
+                0px -5px 5px -5px rgba(0, 110, 255, 0.1);
+}
+
+.fediring h3, .fediring div a b, .fediring-lucky b {
+    display: inline-block;
+	vertical-align: middle;
+	background-color: #300038;
+	background-image: linear-gradient(90deg, #ff0000, #fffab5, #00ff2a, #00bfff, #5500ff);
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.fediring div a, .fediring-lucky {
+    display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #0e2a3d;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	transition: background-color 0.3s;
+}
+
+.fediring div a:hover {
+    background-color: rgb(24, 33, 86);
+}
+
+.fediring div a:active {
+    background-color: #0e203d;
+}
+
+.fediring div>*:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.fediring div>*:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.fediring-lucky {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-image: linear-gradient(#071721, #0e2a3d);
+}
+
+.fediring-lucky:hover {
+    background-image: linear-gradient(#0c1e39, #153f5c);
+}
+
+.fediring-lucky:active {
+    background-image: linear-gradient(#0e203d, #0e2a3d);
+}
